@@ -1,3 +1,15 @@
+"""
+Sharded counters
+
+Original author: Joe Gregorio
+October 2008, updated January 2013
+
+License: http://www.apache.org/licenses/LICENSE-2.0
+
+Adapted from sample code at:
+    https://developers.google.com/appengine/articles/sharding_counters
+
+"""
 import random
 
 from google.appengine.api import memcache
