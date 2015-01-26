@@ -6,7 +6,7 @@ A simple REST API that exposes Counter resources.
 Live demo: http://count-von-count.appspot.com/counters/
 
 #### Create a Counter
-`curl -X POST -d '' http://count-von-count.appspot.com/counters/`
+`% curl -X POST -d '' http://count-von-count.appspot.com/counters/`
 ```json
 {
   "id": "5642554087309312",
